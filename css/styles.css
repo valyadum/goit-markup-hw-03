@@ -257,12 +257,8 @@ address {
     flex-direction: row;
     justify-content: space-between;
     gap: 24px;
-    
+    width: calc((100% - 72px) / 4); 
 }
-.work-photo{
-    width: calc((100% - 48px) / 3);
-}
-
 /* 3section */ 
 /* 4section */ 
 .team-container {
@@ -285,7 +281,7 @@ address {
     display: flex;
     flex-direction: row;
     gap: 24px;
-    width: calc((100% - 72px) / 4); 
+    
 
 }
 .team-text{
@@ -304,6 +300,10 @@ margin-bottom: 8px;
     text-align: center;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+}
+
+.photo-team{ 
+    width: calc((100% - 48px) / 3);
 }
 /* 4section */
 /* footer */
@@ -350,6 +350,7 @@ margin-bottom: 8px;
 
 .part-logo-two {
     color: var(--light-background);
+    display: inline-block;
 }
 
 .part-logo {
