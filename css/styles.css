@@ -117,8 +117,7 @@ nav {
     justify-content: space-between;
     gap: 40px;
     width: 261px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    
 
 }
 
@@ -131,6 +130,7 @@ nav {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .page-nav .link:hover,
@@ -170,7 +170,7 @@ address {
     display: flex;
     background-color: var(--site-color-two);
     color: var(--white);
-    padding: 118px 0;
+    padding: 188px 0;
 }
 
 .container-hero {
@@ -213,10 +213,11 @@ address {
 }
 /* 1section */
 /* 2section */ 
+.our-advantages{
+    padding: 120px 0;
+}
 .container-advantages {
     display: flex;
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 .list-advantages {
@@ -240,10 +241,13 @@ address {
 }
 /* 2section */ 
 /* 3section */ 
+.our-work{
+  padding-bottom: 120px;  
+}
 .work-container {
     display: block;
     align-items: center;
-    padding-bottom: 120px;
+    
 }
 .exempl-work{
     margin-bottom: 72px;
@@ -253,6 +257,9 @@ address {
     flex-direction: row;
     justify-content: space-between;
     gap: 24px;
+    
+}
+.work-photo{
     width: calc((100% - 48px) / 3);
 }
 
@@ -261,11 +268,12 @@ address {
 .team-container {
     display: block;
     height: 732px;
-    padding: 120px 0;
+    
 }
 
 .our-team {
     background: var(--light-background);
+    padding: 120px 0;
 }
 
 .our-team-title {
@@ -277,13 +285,14 @@ address {
     display: flex;
     flex-direction: row;
     gap: 24px;
+    width: calc((100% - 72px) / 4); 
 
 }
 .team-text{
     padding: 32px 16px;
 }
 .title-h{
-padding-bottom: 8px;
+margin-bottom: 8px;
 }
 .photo-team {
     display: flex;
@@ -348,6 +357,20 @@ padding-bottom: 8px;
 }
 
 /* portfolio */
+
+
+.portfolio-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+.all-main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .exempl {
     font-weight: 500;
     font-size: 20px;
@@ -357,18 +380,6 @@ padding-bottom: 8px;
     text-align: left;
 }
 
-.portfolio-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 96px;
-    padding-bottom: 120px; 
-}
-
-.container-filter{
-    display: flex;
-    justify-content: center;
-}
 .button-list {
     display: flex;
     gap: 24px;
@@ -404,10 +415,7 @@ padding-bottom: 8px;
     border: 1px solid transparent;
 }
 
-.container-portfolio{
-    display: flex;
-    flex-wrap: wrap;
-}
+
 .content-list{
     display: flex;
     flex-wrap: wrap;
