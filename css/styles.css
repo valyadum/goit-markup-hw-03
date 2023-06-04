@@ -257,6 +257,8 @@ address {
     flex-direction: row;
     justify-content: space-between;
     gap: 24px;
+    
+}.work-photo{
     width: calc((100% - 48px) / 3); 
 }
 /* 3section */ 
